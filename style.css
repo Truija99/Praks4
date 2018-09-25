@@ -1,0 +1,273 @@
+* {
+	box-sizing: border-box;
+  	padding: 0;
+  	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+.clearfix:after { /*läheb pärast soovitud asja selle link*/
+  content: "";  /*tühi sisu*/
+  display: table;
+  clear: both;
+ }
+
+.container1 {
+	margin:0 auto;
+	width: 1140px;
+	padding-top: 30px;
+	height: 100px;
+}
+
+.container2,
+.container3 {
+	margin:0 auto;
+	width: 1140px;
+	padding-top: 200px;
+}
+
+.container4{
+	margin:0 auto;
+	width: 1140px;
+	padding-top: 200px;
+	height: 900px;
+}
+
+.container5 {
+	margin:0 auto;
+	padding-top: 200px;
+	height: 100px;
+}
+
+
+.logo{
+	font-size: 30px;
+	font-weight: 700;
+	color: white;
+	float: left;
+}
+.img-section {
+	position: relative;
+    background-image: url("2.jpg");
+    background-position: center bottom;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+
+
+/*NAVIGATSIOON*/
+.navbar {
+ 	float: right;
+}
+
+.nav-items {
+	font-size: 16px;
+	font-weight: 400;
+	display: flex;
+	list-style-type: none;
+}
+
+.nav-li a{
+	text-decoration: none;
+	color: white;
+	margin-right: 20px;
+}
+
+.navbar a:hover {
+	border-bottom: 3px solid white;
+}
+
+/*KESKMINE TEKST*/
+.header-texts {
+	position: absolute;
+	float: left;
+	margin-top: 15%;
+	width: 700px;
+}
+#img-text1, #img-text2 {
+	font-weight: 400;
+	color: white;
+
+}
+#img-text1 {
+	position: absolute;
+	font-size: 70px;
+}
+
+#img-text2 {
+	font-size: 20px;
+	margin-top: 130px;
+}
+.button-section {
+	position: absolute;
+}
+
+.button {
+	font-weight: 400;
+	font-size: 16px;
+	background-color: white;
+	color:black;
+	padding: 22px 56px 22px 56px;
+	border: none;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+    display: inline-block;
+    margin: 30px 0 0 0px;
+}
+
+.button:hover {
+	opacity: 0.75;
+}
+
+/*SISU*/
+.our-mission {
+	display: flex;
+}
+.mission-1-img {
+	position: relative;
+	height: 700px;
+	width: 700px;
+	object-fit: cover;
+}
+
+.mission-1-text {
+	text-align: left;
+}
+
+#mission-header,
+#mission-paragraph { 
+	font-weight: 400;
+	padding-left: 105px;
+}
+
+#mission-header {
+	font-size: 50px;
+}
+
+#mission-paragraph {
+	font-size: 20px;
+	line-height: 145%;
+}
+
+
+/*our cheese*/
+
+.ourcheese {
+	width: 1140px;
+	align-items: center;
+}
+
+.ourcheese-header {
+	font-weight: 400;
+	font-size: 50px;
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.grid-container {
+  width: 1140px;
+  display: grid;
+  background-color: transparent; 
+  grid-template-columns: 285px 285px 285px;
+  grid-column-gap: 135px;
+  grid-row-gap: 25px;
+}
+
+.grid-item {
+  width: 300px;
+}
+
+.cheese-img {
+  width: 300px;
+  height: auto;
+}
+
+.grid-item img:hover{
+  	opacity: 0.75;
+}
+
+.cheese-heading {
+	font-size: 30px;
+	text-align: center;
+	margin-top: 30px;
+	font-weight: 400;
+}
+
+.cheese-text {
+  width: 300px; 
+  text-align: left;
+  font-size: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 145%;
+  margin-top: 50px;
+}
+
+/*TOURS*/
+
+.tours {
+	display: flex;
+	flex-direction: row-reverse;
+}
+.tours-img {
+	position: relative;
+	height: 700px;
+	width: 700px;
+	object-fit: cover;
+}
+
+.tours-text {
+	text-align: left;
+}
+
+#tours-header,
+#tours-paragraph { 
+	font-weight: 400;
+	padding-right: 105px;
+}
+
+#tours-header {
+	font-size: 50px;
+}
+
+#tours-paragraph {
+	font-size: 20px;
+	line-height: 145%;
+}
+
+/*FOOTER*/
+
+.footer-section {
+	background-color: transparent;
+	margin:0 auto;
+	width: 1140px;
+	padding-top: 30px;
+	height: 100px;
+}
+
+
+.icons {
+	text-align: center;
+	margin-bottom: 10px;
+}
+.icons img:hover{
+	background-color: yellow;  icons must-valged, hover efekt toob esile nende värvid
+}
+
+.googleplus,
+.facebook,
+.twitter {
+	width: 40px;
+	height: 40px;
+}
+
+
+
+.copyright {
+	font-size: 20px;
+	font-weight: 400;
+	text-align: center;
+}
